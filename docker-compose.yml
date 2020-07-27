@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mesa_app:
+    volumes:
+      - "/opt/mesa/MESA-Docker/docker_work/mesa_automated_docker:/home/docker/docker_work:rw"           
+          #image: "evbauer/mesa_lean:12778.01"
+    build: .
+    #ports:
+            #- "5000:5000"
+       #  mesa_img:
+        #image: "evbauer/mesa_lean:12778.01"
+
