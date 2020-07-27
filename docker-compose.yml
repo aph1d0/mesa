@@ -2,7 +2,7 @@ version: '3'
 services:
   mesa_app:
     volumes:
-      - "/tmp/jenkins/mesa-docker:/home/docker/docker_work:rw"           
+      - "/tmp/workspace/mesa-docker:/home/docker/docker_work:rw"           
           #image: "evbauer/mesa_lean:12778.01"
     build: .
     #ports:
