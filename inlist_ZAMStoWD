@@ -97,8 +97,8 @@
       overshoot_zone_type(1) = 'nonburn'
       overshoot_zone_loc(1) = 'shell'
       overshoot_bdy_loc(1) = 'any'
-      overshoot_f(1) = 0.05
-      overshoot_f0(1) = 0.01
+      overshoot_f(1) = 0.02
+      overshoot_f0(1) = 0.004
 
       photo_interval = 50
       profile_interval = 50
