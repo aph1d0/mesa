@@ -83,6 +83,7 @@
 
       log_L_lower_limit = -1
       !     skopiowane z inlist_to_wd
+      !test web hooka
      
       cool_wind_full_on_T = 9.99d9
       hot_wind_full_on_T = 1d10 
@@ -93,12 +94,12 @@
       Blocker_scaling_factor = 0.7d0 ! 0.8d0
 
       !parametry konwekcji, zostawiam '(1)'
-      !overshoot_scheme(1) = 'exponential'
-      !overshoot_zone_type(1) = 'nonburn'
-      !overshoot_zone_loc(1) = 'shell'
-      !overshoot_bdy_loc(1) = 'any'
-      !overshoot_f(1) = 0.02
-      !overshoot_f0(1) = 0.004
+      overshoot_scheme(1) = 'exponential'
+      overshoot_zone_type(1) = 'nonburn'
+      overshoot_zone_loc(1) = 'shell'
+      overshoot_bdy_loc(1) = 'any'
+      overshoot_f(1) = 0.02
+      overshoot_f0(1) = 0.004
 
       photo_interval = 50
       profile_interval = 50
