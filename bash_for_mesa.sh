@@ -7,7 +7,7 @@ do
 	sed -i "s/overshoot_f(1) =.*/overshoot_f(1) = $i/"  inlist_ZAMStoWD
 	sed -i "s/overshoot_f0(1) =.*/overshoot_f0(1) = $(python -c "print($i*2)")/"  inlist_ZAMStoWD
 	git add .
-	git commit -m "$initial_mass_$i"
+	git commit -m "$initial_mass\_$i"
 	git push
 	sleep 600
 done
