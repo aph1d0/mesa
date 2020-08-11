@@ -1,4 +1,3 @@
-
 &star_job
 
       show_log_description_at_start = .false.
@@ -94,21 +93,12 @@
       Blocker_scaling_factor = 0.7d0 ! 0.8d0
 
       !parametry konwekcji, zostawiam '(1)'
-<<<<<<< HEAD
-      !overshoot_scheme(1) = 'exponential'
-      !overshoot_zone_type(1) = 'nonburn'
-      !overshoot_zone_loc(1) = 'shell'
-      !overshoot_bdy_loc(1) = 'any'
-      !overshoot_f(1) = 0.01
-      !overshoot_f0(1) = 0.002
-=======
       overshoot_scheme(1) = 'exponential'
       overshoot_zone_type(1) = 'nonburn'
       overshoot_zone_loc(1) = 'shell'
       overshoot_bdy_loc(1) = 'any'
-      overshoot_f(1) = 0.01
-      overshoot_f0(1) = 0.002
->>>>>>> b9b420b91f9c7123b53bdbe86a3908548317471d
+      overshoot_f(1) = 0.04
+      overshoot_f0(1) = 0.008
 
       photo_interval = 50
       profile_interval = 50

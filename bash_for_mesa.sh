@@ -1,6 +1,6 @@
 #!/bin/bash
 initial_mass=2.0
-overshootsf=( 0.01 0.02 0.03 )
+overshootsf=( 0.04 0.05 0.06 )
 sed -i "s/initial_mass =.*/initial_mass = $initial_mass/"  inlist_ZAMStoWD
 for i in ${overshootsf[*]}
 do 
